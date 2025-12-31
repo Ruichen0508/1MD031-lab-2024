@@ -1,1 +1,100 @@
-Hello world
+<!DOCTYPE HTML>
+<html lang="en">
+   <head>
+       <title>Page title shown in window title</title>
+       <meta charset="utf-8"/>
+   </head>
+   <body>
+    <header>
+        <h1>Welcome to BurgerHeaven Online</h1>
+    </header>
+   <nav>Menu items</nav>
+   <main>
+    <section>
+        <h2>Select burger</h2>
+        <p>This is where you execute burger selection</p>
+        <div style="display: inline-block">
+            <h3>The Fire Burger</h3>
+            <img src="public/img/burger.webp" alt="fire" title="The fire burger" style="width: 200px">
+            <ul>
+                <li>Kobe beef of the highest quality</li>
+                <li>Covered in fancy cheese (contains lactose)</li>
+                <li>Cold-leavened sourdough bread (contains gluten)</li>
+            </ul>
+        </div>
+
+        <div style="display: inline-block">
+            <h3>Fried Turkey Burger</h3>
+            <img src="public/img/burger2.webp" alt="turkey" title="fried turkey burger" style="width: 200px">
+            <ul>
+                <li>Deep fried Turkish turkey</li>
+                <li>A slice of pink stuff (contains lactose)</li>
+                <li>Shake-n-bake gluten-free bread</li>
+            </ul>
+        </div>
+
+        <div style="display: inline-block">
+            <h3>A Double w/ Cheese</h3>
+            <img src="public/img/burger3.webp" alt="cheese" title="cheese burger" style="width: 200px">
+            <ul>
+                <li>Two layers of pure meat</li>
+                <li>Lots of yummy cheese (contains lactose)</li>
+                <li>Sweet bread bun (contains gluten)</li>
+            </ul>
+        </div>
+
+    </section>
+    <section>
+        <h2>Customer information</h2>
+        <p>This is where you provide necessary information</p>
+    </section>
+    <section>
+        <h3>Delivery Information</h3>
+        <p>
+            <label for="fullname">Full name</label><br>
+            <input type="text" id="fullname" name="fn" required="required" placeholder="First- and Last name">
+        </p>
+        <p>
+            <label for="E-mail">E-mail</label><br>
+            <input type="email" id="email" name="em" required="required" placeholder="E-mail address">
+        </p>
+        <p>
+            <label for="Street">Street</label><br>
+            <input type="text" id="street" name="s" required="required" placeholder="Street name">
+        </p>
+        <p>
+            <label for="House">House</label><br>
+            <input type="number" id="house" name="h" required="required" placeholder="House number">
+        </p>
+        <p>
+        <label for="Payment options">Payment options</label><be><br>
+        <select id="Payment options" name="po" selected="Credit card">
+            <option>Credit card</option>
+            <option>Klarna</option>
+            <option>Swish</option>
+            <option>PayPal</option>
+        </select>
+        </p>
+        <form>
+        <p>Gender</p>
+            <input type="radio" id="male" name="gender" value="Male" checked>
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="Female">
+            <label for="female">Female</label><br>
+            <input type="radio" id="non-binary" name="gender" value="Non-binary">
+            <label for="non-binary">Non-binary</label><br>
+            <input type="radio" id="prefer-not-to-say" name="gender" value="Prefer not to say">
+            <label for="prefer-not-to-say">Prefer not to say</label><br>
+        </form><br>
+        
+        <button type="submit">
+            🛒 Place my order!
+        </button>
+    </section>
+   </main>
+   <hr>
+   <footer>
+    &copy; 2018 Hypothetical Burgers Inc.
+   </footer>
+    </body>
+</html>
