@@ -14,35 +14,38 @@
     <section id="select-burger">
         <h2>Select burger</h2>
         <p>This is where you execute burger selection</p>
-        <div style="display: inline-block">
-            <h3>The Fire Burger</h3>
-            <img src="public/img/burger.webp" alt="fire" title="The fire burger" style="width: 200px">
-            <ul>
-                <li>Kobe beef of the highest quality</li>
-                <li>Covered in fancy cheese <span class="allergen"> (contains lactose) </span></li>
-                <li>Cold-leavened sourdough bread <span class="allergen"> (contains gluten) </span></li>
-            </ul>
-        </div>
+        
+        <div class="wrapper">
+            <div class="burger-item">
+                <h3>The Fire Burger</h3>
+                <img src="public/img/burger.webp" alt="fire" title="The fire burger" style="width: 200px">
+                <ul>
+                    <li>Kobe beef of the highest quality</li>
+                    <li>Covered in fancy cheese <span class="allergen"> (contains lactose) </span></li>
+                    <li>Cold-leavened sourdough bread <span class="allergen"> (contains gluten) </span></li>
+                </ul>
+            </div>
 
-        <div style="display: inline-block">
-            <h3>Fried Turkey Burger</h3>
-            <img src="public/img/burger2.webp" alt="turkey" title="fried turkey burger" style="width: 200px">
-            <ul>
-                <li>Deep fried Turkish turkey</li>
-                <li>A slice of pink stuff <span class="allergen"> (contains lactose) </span></li>
-                <li>Shake-n-bake gluten-free bread</li>
-            </ul>
-        </div>
+            <div class="burger-item">
+                <h3>Fried Turkey Burger</h3>
+                <img src="public/img/burger2.webp" alt="turkey" title="fried turkey burger" style="width: 200px">
+                <ul>
+                    <li>Deep fried Turkish turkey</li>
+                    <li>A slice of pink stuff <span class="allergen"> (contains lactose) </span></li>
+                    <li>Shake-n-bake gluten-free bread</li>
+                </ul>
+            </div>
 
-        <div style="display: inline-block">
-            <h3>A Double w/ Cheese</h3>
-            <img src="public/img/burger3.webp" alt="cheese" title="cheese burger" style="width: 200px">
-            <ul>
-                <li>Two layers of pure meat</li>
-                <li>Lots of yummy cheese <span class="allergen"> (contains lactose) </span></li>
-                <li>Sweet bread bun <span class="allergen"> (contains gluten) </span></li>
-            </ul>
-        </div>
+            <div class="burger-item">
+                <h3>A Double w/ Cheese</h3>
+                <img src="public/img/burger3.webp" alt="cheese" title="cheese burger" style="width: 200px">
+                <ul>
+                    <li>Two layers of pure meat</li>
+                    <li>Lots of yummy cheese <span class="allergen"> (contains lactose) </span></li>
+                    <li>Sweet bread bun <span class="allergen"> (contains gluten) </span></li>
+                </ul>
+            </div>
+        </div> 
     </section>
 
     <section id="customer-info">
@@ -85,11 +88,10 @@
             <input type="radio" id="prefer-not-to-say" name="gender" value="Prefer not to say">
             <label for="prefer-not-to-say">Prefer not to say</label><br>
         </form><br>
-
-        <button type="submit">
-            🛒 Place my order!
-        </button>
     </section>
+    <button type="submit">
+        🛒 Place my order!
+    </button>
    </main>
    <hr>
    <footer>

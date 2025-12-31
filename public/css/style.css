@@ -36,6 +36,10 @@ main {
     opacity: 0.5;
 } */
 
+section {
+    margin: 2rem 0;
+}
+
 header {
     position: relative;
     max-width: 40rem;
@@ -88,8 +92,13 @@ nav li {
 }
 
 #select-burger {
+    border: 2px solid blueviolet;
     background-color: black;
     color: white;
+}
+
+button {
+    margin-top: 1.5rem;
 }
 
 button:hover {
@@ -99,4 +108,13 @@ button:hover {
 #customer-info {
     border: 2px dashed black;
     padding: 20px; 
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+}
+
+.burger-item {
+    display: block; 
 }
