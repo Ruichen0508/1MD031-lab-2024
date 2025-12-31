@@ -1,21 +1,21 @@
 [{
-    "name": "Veggie Bliss", 
+    "name": "The Fire Burger", 
     "kCal": 500, 
-    "url": "https://images-bonnier.imgix.net/files/ifo/production/20220412084608/Kødfri-burger-1.jpg?auto=compress,format&w=1024%201024w",
     "lactose": false, 
-    "gluten": false
+    "gluten": false,
+    "url": "img/burger.webp"
 },
 {
-    "name": "Veggie Bliss", 
-    "kCal": 500, 
-    "url": "https://images-bonnier.imgix.net/files/ifo/production/20220412084608/Kødfri-burger-1.jpg?auto=compress,format&w=1024%201024w",
-    "lactose": false, 
-    "gluten": false
+    "name": "Fried Turkey Burger",
+    "kCal": 400,
+    "lactose": true,
+    "gluten": false,
+    "url": "img/burger2.webp"
 },
 {
-    "name": "Veggie Bliss", 
-    "kCal": 500, 
-    "url": "https://images-bonnier.imgix.net/files/ifo/production/20220412084608/Kødfri-burger-1.jpg?auto=compress,format&w=1024%201024w",
-    "lactose": false, 
-    "gluten": false
+    "name": "A Double w/ Cheese",
+    "kCal": 500,
+    "lactose": true,
+    "gluten": true,
+    "url": "img/burger3.webp"
 }]
