@@ -3,14 +3,15 @@
    <head>
        <title>Page title shown in window title</title>
        <meta charset="utf-8"/>
+       <link rel="stylesheet" href="public/css/style.css">
    </head>
    <body>
     <header>
         <h1>Welcome to BurgerHeaven Online</h1>
+        <img src="public/img/background.jpg" alt="Restaurant">
     </header>
-   <nav>Menu items</nav>
    <main>
-    <section>
+    <section id="select-burger">
         <h2>Select burger</h2>
         <p>This is where you execute burger selection</p>
         <div style="display: inline-block">
@@ -18,8 +19,8 @@
             <img src="public/img/burger.webp" alt="fire" title="The fire burger" style="width: 200px">
             <ul>
                 <li>Kobe beef of the highest quality</li>
-                <li>Covered in fancy cheese (contains lactose)</li>
-                <li>Cold-leavened sourdough bread (contains gluten)</li>
+                <li>Covered in fancy cheese <span class="allergen"> (contains lactose) </span></li>
+                <li>Cold-leavened sourdough bread <span class="allergen"> (contains gluten) </span></li>
             </ul>
         </div>
 
@@ -28,7 +29,7 @@
             <img src="public/img/burger2.webp" alt="turkey" title="fried turkey burger" style="width: 200px">
             <ul>
                 <li>Deep fried Turkish turkey</li>
-                <li>A slice of pink stuff (contains lactose)</li>
+                <li>A slice of pink stuff <span class="allergen"> (contains lactose) </span></li>
                 <li>Shake-n-bake gluten-free bread</li>
             </ul>
         </div>
@@ -38,17 +39,15 @@
             <img src="public/img/burger3.webp" alt="cheese" title="cheese burger" style="width: 200px">
             <ul>
                 <li>Two layers of pure meat</li>
-                <li>Lots of yummy cheese (contains lactose)</li>
-                <li>Sweet bread bun (contains gluten)</li>
+                <li>Lots of yummy cheese <span class="allergen"> (contains lactose) </span></li>
+                <li>Sweet bread bun <span class="allergen"> (contains gluten) </span></li>
             </ul>
         </div>
-
     </section>
-    <section>
+
+    <section id="customer-info">
         <h2>Customer information</h2>
         <p>This is where you provide necessary information</p>
-    </section>
-    <section>
         <h3>Delivery Information</h3>
         <p>
             <label for="fullname">Full name</label><br>
@@ -86,7 +85,7 @@
             <input type="radio" id="prefer-not-to-say" name="gender" value="Prefer not to say">
             <label for="prefer-not-to-say">Prefer not to say</label><br>
         </form><br>
-        
+
         <button type="submit">
             🛒 Place my order!
         </button>
